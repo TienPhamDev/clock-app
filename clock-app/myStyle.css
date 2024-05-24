@@ -1,0 +1,16 @@
+.mainDiv{
+  background: rgba(0, 0, 0, 0.3)  url("/assets/mobile/bg-image-nighttime.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode: darken;
+  height: 100vh;
+}
+.quotes{
+  font-weight: 300;
+  font-size: 14px;
+}
+.author{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: bold;
+}
