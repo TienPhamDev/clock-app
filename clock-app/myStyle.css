@@ -14,3 +14,29 @@
   text-underline-offset: 3px;
   font-weight: bold;
 }
+.moreBTN,.lessBTN{
+  width: 124px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 36px 0;
+  padding: 4px 6px;
+  color: grey;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border-radius: 50px;
+}
+.moreBTN{
+  display: none;
+}
+.moreBTN span:first-child,
+.lessBTN span:first-child{
+  margin-left: 10px;
+}
+.spanSvgBTN{
+  background-color: #303030;
+  padding: 14px 12px;
+  border-radius: 100%;
+}
