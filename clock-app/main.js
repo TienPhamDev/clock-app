@@ -31,13 +31,17 @@ document.querySelector('#app').innerHTML = `
       <button class="moreBTN">
         <span>MORE</span>
         <span class="spanSvgBTN">
-          <svg width="14" height="9" xmlns="http://www.w3.org/2000/svg"><path stroke="#FFF" stroke-width="2" fill="none" d="m1 1 6 6 6-6"/></svg>
+          <svg width="14" height="9" xmlns="http://www.w3.org/2000/svg">
+            <path stroke="#FFF" stroke-width="2" fill="none" d="m1 1 6 6 6-6"/>
+          </svg>
         </span>
       </button>
       <button class="lessBTN">
         <span>LESS</span>
         <span class="spanSvgBTN">
-          <svg width="14" height="9" xmlns="http://www.w3.org/2000/svg"><path stroke="#FFF" fill="none" stroke-width="2" d="m1 1 6 6 6-6"/></svg>
+          <svg width="14" height="9" xmlns="http://www.w3.org/2000/svg">
+            <path stroke="#FFF" stroke-width="2" fill="none" d="M1 8l6-6 6 6"/>
+          </svg>
         </span>
       </button>
     </div>
