@@ -36,19 +36,19 @@ document.querySelector('#app').innerHTML = `
       </button>
       <button class="lessBTN">
         <span>LESS</span>
-        <span class="">
-          <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#303030" cx="20" cy="20" r="20"/><path stroke="#FFF" stroke-width="2" d="M14 23l6-6 6 6"/></g></svg>
+        <span class="spanSvgBTN">
+          <svg width="14" height="9" xmlns="http://www.w3.org/2000/svg"><path stroke="#FFF" fill="none" stroke-width="2" d="m1 1 6 6 6-6"/></svg>
         </span>
       </button>
     </div>
-    <div class="additionInfoDiv bg-black h-3/4 py-10 px-4 grid grid-cols-2 items-center">
-      <span class="text-md">CURRENT TIMEZONE</span>
+    <div class="additionInfoDiv bg-black h-3/4 py-10 px-4 grid grid-cols-2 gap-2 items-center">
+      <span class="text-sm">CURRENT TIMEZONE</span>
       <span class="justify-self-end font-bold text-2xl">Europe/London</span>
-      <span class="text-md">DAY OF THE YEAR</span>
+      <span class="text-sm">DAY OF THE YEAR</span>
       <span class="justify-self-end font-bold text-2xl">295</span>
-      <span class="text-md">DAY OF THE WEEK</span>
+      <span class="text-sm">DAY OF THE WEEK</span>
       <span class="justify-self-end font-bold text-2xl">5</span>
-      <span class="text-md">WEEK NUMBER</span>
+      <span class="text-sm">WEEK NUMBER</span>
       <span class="justify-self-end font-bold text-2xl">42</span>
     </div>
   </div>
